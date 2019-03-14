@@ -12,4 +12,4 @@ Problems will organized by source and date.
  - Create a second, more refined solution.
  - Aim for single pass.
  - Do not look up solutions from other users.
- - Only use documentation, NO STACKOVERFLOW
+ - Only use documentation, NO STACKOVERFLOW nor the likes
