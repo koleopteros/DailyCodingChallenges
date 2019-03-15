@@ -18,6 +18,7 @@ console.log(a([10,5,2,7],15))
 console.log(a([10,5,2,7],9))
 console.log(a([10,5,2,7],27))
 
+//single pass?
 const b = (arr,k) => {
   let success = false
   for(let val of arr){
