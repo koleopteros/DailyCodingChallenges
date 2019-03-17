@@ -9,10 +9,12 @@ Problems will organized by source and date.
 
 ## Rules for my solutions:
  - Attempt for a solution regardless of how janky.
- - Create a second, more refined solution.
+   - If time permits, Create a second, more refined solution.
+ - Try to document how I am trying to solve the solution
  - Aim for single pass.
  - Do not look up solutions from other users.
- - Only use documentation, NO stackoverflow nor the likes.
+ - Only use documentation
+   - NO stackoverflow nor the likes.
 
 ## Uploads:
  - Will use KoleosRemote when completing solutions on a Remote Desktop or from public PCs.
