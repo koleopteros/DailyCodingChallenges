@@ -1,8 +1,8 @@
 /**
- * Node
+ * BinaryNode
  * Left and right represent 1 and 2
- * @params integer, number of steps
- * @returns integer, number of unique ways to climb.
+ * @param {Number}, number of steps
+ * @returns {Number}, number of unique ways to climb.
  */
 class BinaryNode {
     constructor() {
@@ -10,7 +10,13 @@ class BinaryNode {
         this.right
     }
 }
-
+/**
+ * treeBuilder
+ * takes a root and builds a binary tree that represents
+ * all unique combinations of 1 and 2 that sum up to value of num 
+ * @param {BinaryNode} root 
+ * @param {Number} num 
+ */
 const treeBuilder = (root, num) => {
     let left = new BinaryNode()
     let right = new BinaryNode()
@@ -25,7 +31,13 @@ const treeBuilder = (root, num) => {
         }
     }
 }
-
+/**
+ * SolutionA
+ * Seeks to the end of each branch and returns the total number of
+ * leaves there are in the binary tree
+ * @param {BinaryNode} root 
+ * @param {Number} num 
+ */
 const solutionA = (root, num) => {
     let value = 0
     let pointer = root
@@ -39,7 +51,11 @@ const solutionA = (root, num) => {
         return value
     }
 }
-
+/**
+ * runSolutionA
+ * runs the three commands to print out the answer to the question
+ * @param {Number} n 
+ */
 const runSolutionA = (n) => {
     let root = new BinaryNode()
     treeBuilder(root,n)

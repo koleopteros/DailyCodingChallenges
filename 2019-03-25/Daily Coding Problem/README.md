@@ -21,6 +21,8 @@ Step 1: build tree structure and generator
 create the root which will not count to any value.  
 Left will represent 1, Right will represent 2.
 
+The data structure could easily be adapted to accomodate the 1,3,5 steps at a time (Or at least, that is what I think)
+
 
 ### Alternative ideas
 
