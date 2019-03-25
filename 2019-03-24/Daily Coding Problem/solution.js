@@ -14,10 +14,8 @@ const words = {
  */
 const solutionA = (str) => {
     let results = []
-    for(var list in words){
-        results = words[list].filter((x)=>{
-            return str === x.substr(0,str.length)
-        })
-    }
+    results = words[str[0]].filter((x)=>{
+        return str === x.substr(0,str.length)
+    })
     return results
 }
