@@ -12,3 +12,5 @@ Hint: Try preprocessing the dictionary into a more efficient data structure to s
 I will assume the dictionary of words is predetermined from some accessible source.
 
 I suppose my solution will just be a function that takes in a string value, and just do soem sort of .filter function.
+
+consider building some sort of 'binary tree' for the words to improve search speed?
