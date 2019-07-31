@@ -89,24 +89,20 @@ const solutionC = (str) => {
     }
 }
 
+const test = (callback, input) => {
+  t0 = performance.now()
+  callback(input);
+  t1 = performance.now()
+console.log(t1-t0)
+}
+
 // Testing 
 var t0,t1;
 var input = genStr(4048);
 
-t0 = performance.now()
-solutionA(input);
-t1 = performance.now()
-console.log(t1-t0)
-
-t0 = performance.now()
-solutionB(input);
-t1 = performance.now()
-console.log(t1-t0)
-
-t0 = performance.now()
-solutionC(input);
-t1 = performance.now()
-console.log(t1-t0)
+test(solutionA, input);
+test(solutionB,input);
+test(solutionC,input);
 
 function genStr(size){
     if(size==1){
